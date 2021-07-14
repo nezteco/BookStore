@@ -2,9 +2,8 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
 
-
+<code>main-blog.liquid</code>
 {%- paginate blog.articles by 6 -%}
-
   <div class="main-blog page-width">
     <h1 class="title--primary">{{ blog.title | escape }}</h1>
 
