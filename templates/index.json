@@ -36,14 +36,14 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured products",
-        "collection": "frontpage",
+        "collection": "",
         "products_to_show": 4,
         "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "square",
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
         "show_secondary_image": false,
-        "add_image_padding": true,
-        "show_vendor": true
+        "add_image_padding": false,
+        "show_vendor": false
       }
     },
     "image_text": {
